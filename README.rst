@@ -94,8 +94,8 @@ and then editing the results to include your name, email, and various configurat
 
 First, get Cookiecutter. Trust me, it's awesome::
 
-    $ mkvirtualenv django_opera # or
-    $ workon django_opera
+    $ mkvirtualenv dopera # or
+    $ workon dopera
     $ pip install "cookiecutter>=1.5.0"
 
 Now run it against this repo::
