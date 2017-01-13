@@ -94,11 +94,13 @@ and then editing the results to include your name, email, and various configurat
 
 First, get Cookiecutter. Trust me, it's awesome::
 
-    $ pip install "cookiecutter>=1.4.0"
+    $ mkvirtualenv django_opera # or
+    $ workon django_opera
+    $ pip install "cookiecutter>=1.5.0"
 
 Now run it against this repo::
 
-    $ cookiecutter https://github.com/pydanny/cookiecutter-django
+    $ cookiecutter ./django-opera --no-input
 
 You'll be prompted for some values. Provide them, then a Django project will be created for you.
 
@@ -167,6 +169,11 @@ Create a git repo and push it there::
     $ git push -u origin master
 
 Now take a look at your repo. Don't forget to carefully look at the generated README. Awesome, right?
+
+
+Install Pip::
+
+    $ pip install -r requirements/local.txt
 
 For local development, see the following:
 

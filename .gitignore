@@ -22,9 +22,10 @@ sftp-config.json
 # Generated files
 *.log
 *.pot
-*.pyc
+*.py[cod]
 .idea
 _build
+__pycache__
 *.egg-info/
 
 # Project Specific Stuff
@@ -42,3 +43,30 @@ celerybeat-schedule.db
 .coverage
 .tox
 .cache
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea/*
+
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Compass
+.sass-cache
+
+# virtual environments
+.env
+
+# Hitch directory
+tests/.hitch
+

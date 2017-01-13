@@ -6,6 +6,7 @@ FROM python:2.7
 ENV PYTHONUNBUFFERED 1
 
 # Requirements have to be pulled and installed here, otherwise caching won't work
+COPY ./requirements/pip.conf /etc/pip.conf  # setup pip mirror
 COPY ./requirements /requirements
 
 RUN pip install -r /requirements/production.txt \
