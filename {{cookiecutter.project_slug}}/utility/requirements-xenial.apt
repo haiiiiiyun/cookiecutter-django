@@ -27,4 +27,4 @@ libwebp-dev
 graphviz-dev
 
 ##fabric dependencies
-sudo apt-get install libssl-dev
+libssl-dev
