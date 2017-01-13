@@ -25,3 +25,6 @@ libwebp-dev
 
 ##django-extensions
 graphviz-dev
+
+##fabric dependencies
+sudo apt-get install libssl-dev
