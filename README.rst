@@ -141,7 +141,7 @@ Create DB::
 
 Init::
 
-    $ python manager.py migrate
+    $ python manage.py migrate
     $ python manage.py createsuperuser
 
 For local development, see the following:
